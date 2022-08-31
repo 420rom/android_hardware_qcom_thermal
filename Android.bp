@@ -64,8 +64,7 @@ cc_binary {
 	],
 	header_libs: [
 		"liblog_headers",
-		"libcutils_headers",
-		"qti_kernel_headers"
+		"libcutils_headers"
 	],
 	cflags: [
 		"-Wno-unused-parameter",
